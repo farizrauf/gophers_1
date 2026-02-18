@@ -13,5 +13,7 @@ func CheckFever() {
 
 	if suhu > 37 {
 		color.Red("Anda memiliki fever.")
+	} else {
+		color.Green("Anda tidak memiliki fever.")
 	}
 }

@@ -2,7 +2,6 @@ package main //Package main
 
 import (
 	"belajarcls/change"
-	"belajarcls/validation"
 )
 
 func main() {
@@ -14,6 +13,6 @@ func main() {
 
 	//var nama string
 	//fmt.Println(nama)
-	validation.CheckFever()
+	//validation.CheckFever()
 	change.CheckChange()
 }
